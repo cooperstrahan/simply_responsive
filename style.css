@@ -1,0 +1,47 @@
+* {
+    margin: 5px;
+    padding: 0px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.head {
+    background-color: #B3B3B3;
+}
+
+.row {
+    background-color: #CCCCCC;
+}
+
+.desc {
+    background-color: #FFFF9A;
+}
+
+@media only screen and (max-width: 480px){
+    .sm {
+        width: 50%
+    }
+    .svn {
+        display: none;
+    }
+}
+@media only screen and (min-width: 481px) and (max-width:1023px){
+    .md {
+        width: 58%
+    }
+    .mvn {
+        display: none;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .lg {
+        width: 83%
+    }
+    .lvn {
+        display: none;
+    }
+}
+
+span {
+    font-weight: bold;
+}
